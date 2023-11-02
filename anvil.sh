@@ -1,0 +1,1 @@
+anvil --fork-url https://arb-mainnet.g.alchemy.com/v2/HQg8IiIwZTSSqgEHvlN4HCXdVY4P1Tpn --host 0.0.0.0 --chain-id 31337 --block-time 1 --timestamp $(date +%s) --prune-history 5

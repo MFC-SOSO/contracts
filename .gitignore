@@ -1,0 +1,13 @@
+node_modules
+.idea
+
+#Hardhat files
+cache
+artifacts
+.yarn/cache
+.secret
+
+deployments/localhost
+deployments/lumidev
+deployments/lumilocal
+deployments/lumiairdrop
