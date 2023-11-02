@@ -64,6 +64,11 @@ const config: HardhatUserConfig = {
       },
     }
   },
+  etherscan: {
+    apiKey: {
+      arbitrumOne: "16V2ZCS4PBCVS6QI16RXYC92HFH68353A6"
+    }
+  },
   namedAccounts: {
     deployer: 0,
   },
