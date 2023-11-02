@@ -145,6 +145,10 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Launcher__factory>;
     getContractFactory(
+      name: "LauncherV2",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.LauncherV2__factory>;
+    getContractFactory(
       name: "MakeFriendsCoin",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.MakeFriendsCoin__factory>;
@@ -334,6 +338,11 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.Launcher>;
+    getContractAt(
+      name: "LauncherV2",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.LauncherV2>;
     getContractAt(
       name: "MakeFriendsCoin",
       address: string,

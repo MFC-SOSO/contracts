@@ -72,6 +72,8 @@ export type { IShares } from "./contracts/interfaces/IShares";
 export { IShares__factory } from "./factories/contracts/interfaces/IShares__factory";
 export type { Launcher } from "./contracts/Launcher";
 export { Launcher__factory } from "./factories/contracts/Launcher__factory";
+export type { LauncherV2 } from "./contracts/LauncherV2";
+export { LauncherV2__factory } from "./factories/contracts/LauncherV2__factory";
 export type { MakeFriendsCoin } from "./contracts/MakeFriendsCoin";
 export { MakeFriendsCoin__factory } from "./factories/contracts/MakeFriendsCoin__factory";
 export type { TestAuthenticate } from "./contracts/test/TestAuthenticate";
